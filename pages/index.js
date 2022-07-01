@@ -13,20 +13,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <br />
         <h2>next/future/image</h2>
         <FutureImage
           src="/moon.jpg"
           alt="Man in the moon"
-          width={750}
-          height={250}
+          width={600}
+          height={200}
         />
-        <br />
         <h2>next/image</h2>
-        <Image src="/moon.jpg" alt="Man in the moon" width={750} height={250} />
+        <Image src="/moon.jpg" alt="Man in the moon" width={600} height={200} />
       </main>
 
       <footer className={styles.footer}>
