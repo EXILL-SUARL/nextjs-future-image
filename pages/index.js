@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import FutureImage from "next/future/image";
-import HighRes from "../public/highres.jpg"
+import HighRes from "../public/high-res.jpg"
 
 export default function Home() {
   return (
