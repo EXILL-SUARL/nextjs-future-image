@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <h2>next/future/image</h2>
         <FutureImage
-          src="/moon.jpg"
+          src={HighRes}
           alt="Man in the moon"
           width={600}
           height={200}
