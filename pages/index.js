@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import FutureImage from "next/future/image";
+import HighRes from "../public/highres.jpg"
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           height={200}
         />
         <h2>next/image</h2>
-        <Image src="/moon.jpg" alt="Man in the moon" width={600} height={200} />
+        <Image src={HighRes} placeholder="blur" alt="Man in the moon" width={600} height={200} />
       </main>
 
       <footer className={styles.footer}>
