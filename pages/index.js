@@ -16,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <h2>next/future/image</h2>
         <FutureImage
+          placeholder="blur"
           src={HighRes}
           alt="Man in the moon"
           width={600}
